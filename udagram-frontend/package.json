@@ -6,13 +6,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --env=prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy":"chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
   },
-  "private": false,
+  "private": true,
   "dependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14",
